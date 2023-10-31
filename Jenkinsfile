@@ -1,9 +1,5 @@
 pipeline {
-    agent {
-        docker {
-            image 'cimg/python:3.11.4'
-        }
-    }
+    agent any
     stages {
         stage('Checkout') {
             steps {
