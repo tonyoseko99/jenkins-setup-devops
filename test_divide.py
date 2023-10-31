@@ -1,4 +1,4 @@
-# Test file for divide.py
+# Test file for divide.py using unittest
 import unittest
 from divide import divide
 
